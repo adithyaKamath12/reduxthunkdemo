@@ -1,0 +1,31 @@
+.DetailPage{
+    width:200px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+    border:1px solid rgb(196, 195, 195);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+
+.DetailPage >p{
+    font-size: 0.8rem;
+    margin:0  0;
+    margin-left: 10px;
+}
+
+.DetailPage p:first-child{
+    margin-top: 20px;
+}
+
+.DetailPage p >span{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
